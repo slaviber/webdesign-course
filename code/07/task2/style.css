@@ -1,0 +1,23 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+header, footer, div.boxcont, div.boxside{
+	padding: 15px;
+	background-color: silver;
+}
+header, footer, div.box{
+	margin: 10px;
+	overflow: hidden;
+}
+div.content{
+	width: 70%;
+	float: right;
+}
+div.sidebar{
+	width: 30%;
+	float: left;
+}
+div.boxcont{ 
+	margin-left: 10px 
+}
