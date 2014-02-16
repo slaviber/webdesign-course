@@ -1,0 +1,40 @@
+﻿*{
+    margin: 0; 
+    padding: 0; 
+}
+nav.menu li{
+    list-style:none;
+}
+a{
+    font-family: "Vrinda";
+}
+nav.menu a { 
+    text-decoration: none; 
+    color: azure;
+    background-color: blueviolet;
+    padding: 5px;
+    display: block;
+    transition: background 0.5s linear;
+    transition: 0.1s linear;
+}
+nav.menu a:hover{
+    color: darkviolet;
+    background-color: azure;
+}
+nav.menu > ul > li{
+    float: left;
+}
+nav.menu li > ul{
+    visibility: hidden;
+    width: auto;
+    position: absolute;
+}
+nav.menu li:hover > ul{
+	visibility:visible;
+}
+nav.menu > ul li{
+    position: relative; 
+}
+nav.menu > ul li ul li ul{ 
+    left: 100%; top: 0%; 
+}
