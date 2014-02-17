@@ -1,0 +1,45 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    font-si0px;
+    font-family: "Vrinda";
+    font-size: 20px;
+}
+body {
+    padding-top: 40px;
+}
+div.cover{
+    background: #FFF url('http://2.bp.blogspot.com/_J6j-bn9B08M/RvBs68-gyUI/AAAAAAAABLI/4HDC_LqOj7I/s400/rabbit%2Bjunk.JPG') no-repeat center;
+    background-size: 40%;
+    padding-bottom: 40px;
+}
+div.cover li{
+    color: violet;
+    padding: 15px;
+    list-style: none;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+div.cover > ul{
+    width: 40%; margin: 0 auto;
+}
+div.cover > ul > li > .title {
+    float: left;
+    margin-right: 10px;
+}
+div.cover > ul > li > .length {
+    float: right;
+    margin-left: 10px;
+}
+div.cover > ul > li > .gap {
+    display: block; 
+    overflow: hidden;
+    padding-top: 10px;
+    border-bottom: 5px dotted violet; 
+}
+div.site > a {
+    display: block;
+    margin: -30px;
+    text-align: center;
+    text-decoration: none;
+    color: violet;
+}
