@@ -1,0 +1,14 @@
+﻿input.box
+{
+    margin: 10px;
+    font-size: 8pt;
+    height: 100px;
+    width: 300px;
+}
+
+div.l {float: left;}
+div.r{float: right;}
+
+input[type=checkbox]:not(:checked) ~.box {
+    display: none;
+}

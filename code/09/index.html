@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Шпионаж!</title>
+</head>
+<body>
+    <form id="spy">
+        <fieldset>
+            <legend>Бланка за шпионаж</legend>
+            <fieldset>
+                <legend>Информация за лицето</legend>
+                <label for="name">Име</label> <input type="text" id="name" value="">
+                <label for="last name">Фамилия</label> <input type="text" id="last name" value="">
+                <label for="date">Дата на раждане</label> <input type="date" id="date" value="2014-08-08">
+                <label for="location">Адрес на местоживеене</label> <input type="text" id="location" value="">
+            </fieldset>
+            <fieldset>
+                <legend>Профил на лицето</legend>
+                <label for="name">Име</label> <input type="text" id="name" value="">
+                <label for="eyecolor">Цвят на очите</label> 
+                <select name="eyecolor" form="spy">
+                    <option value="green">Зелени</option>
+                    <option value="blue">Сини</option>
+                    <option value="brown">Кафяви</option>
+                </select>
+                <label for="haircol">Цвят на косата</label> 
+                    <input type="radio" name="haircol" id="haircol" value="Кестенява">Кестенява
+                    <input type="radio" name="haircol" id="haircol" value="Черна">Черна
+                    <input type="radio" name="haircol" id="haircol" value="Червена">Червена
+                    <input type="radio" name="haircol" id="haircol" value="Друг">Друг
+                <br>
+                <label for="traits">Отличителни белези</label>  <input type="checkbox" id="traits" value="">
+                <input type="text" placeholder="описание:" class="box">
+            </fieldset>
+            <fieldset>
+                <legend>Информация за подателя</legend>
+                <div class="l">
+                    <label for="name">Име на подателя</label> <input type="text" id="name" value="">
+                    <label for="location">Адрес</label> <input type="text" id="location" value="">
+                </div>
+                <div class="r">
+                    <label for="phone">Тел.:</label> <input type="text" id="phone" placeholder="+359">
+                    <label for="fax">Факс.:</label> <input type="text" id="fax" value="">
+                    <label for="mail">e-mail:</label> <input type="text" id="fax" value="">
+                </div>
+            </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+</html>
