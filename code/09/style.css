@@ -1,9 +1,10 @@
-﻿input.box
+﻿textarea.box
 {
     margin: 10px;
     font-size: 8pt;
     height: 100px;
     width: 300px;
+    background: transparent;
 }
 
 div.l {float: left;}
